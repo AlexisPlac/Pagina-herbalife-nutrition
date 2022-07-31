@@ -1,0 +1,218 @@
+.nav-link {
+    color: white;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-style: italic;
+    color: forestgreen;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 2em;
+    color: antiquewhite;
+}
+
+.small {
+    color: antiquewhite;
+}
+
+.cover {
+    height:400px;
+    background-image:url(https://cdn.glitch.global/c6edf514-fee2-4eca-9627-1029926ad316/rsz_katharina-bill-6c9ex44onj4-unsplash.jpg?v=1646524320081);
+    color: white;
+    background-size: cover;
+    background-color:rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+}
+
+.card-img {
+    display: inline-grid;
+    margin: 5vh 0vh 5vh 12vh;
+    background-color: rgba(25, 145, 14, 0.582);
+}
+
+.image-text {
+    height: 100%;
+}
+
+.st-bl {
+    margin-top: 5vh;
+}
+
+.complete-info {
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+.img {
+    width: 22rem;
+    height: 35vh;
+    border: 1px solid black;
+}
+
+.card-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 1.1em;
+    font-weight: 900;
+    color: black;
+}
+
+.products-titulo {
+    background-color: rgba(88, 158, 117, 0.445);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.card-products {
+    display: inline-grid;
+    margin: 5vh 2vh 0vh 5vh;
+    height: 70vh;
+}
+
+
+@media (min-width: 100px) and (max-width: 320px)
+{
+.card-products {
+    display: inline-grid;
+    margin: 5vh 2vh 0vh 15vh;
+    height: 70vh;
+}
+
+}
+
+.img-products {
+    width: 18rem;
+    height: 35vh;
+}
+
+.titulo-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.buttom-products {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maps-pagine {
+    width: 100vw;
+    height: 100vh;
+}
+
+.h3-maps {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.parrafo-info-maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.footer {
+    margin-top: 5vh;
+    background-color: rgba(5, 7, 12, 1);
+    width: 100vw;
+    height: 60vh;
+}
+
+.articles {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 5vw;
+    display: flex;
+    overflow: hidden;
+}
+
+.art4 {
+    margin-top: 10vh;
+    width: 30vw;
+    height: 30vh;
+}
+
+.art5 {
+    width: 30vw;
+    margin-left: 33vw;
+    color: white;
+}
+
+.img10 {
+    height: 3vh;
+    width: 2vw;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: 5vh;
+    margin-bottom: 1vh;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    margin-left: 5vh;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
